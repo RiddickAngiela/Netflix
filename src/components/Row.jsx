@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import Movie from './Movie'
 
 
-const Row = ({title, fetchURL}) => {
+const Row = ({title, fetchURL, rowID}) => {
     const[movies,setMovies]= useState([])
     
 
